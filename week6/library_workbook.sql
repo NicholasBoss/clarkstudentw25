@@ -554,7 +554,8 @@ SELECT * FROM stock;
 
 -- -----------------------------------------------------------
 -- -----------------------------------------------------------
--- d. Create your own transactions to check out 3 Books
+-- d. Create your own transactions to check out 3 Books that 
+--    haven't been checked out yet.
 -- -----------------------------------------------------------
 -- -----------------------------------------------------------
 
