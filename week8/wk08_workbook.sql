@@ -144,6 +144,16 @@ SELECT @string;
 -- -----------------------------------------------------------------------------------------
 SELECT DATE_FORMAT(@string, '%d-%b-%Y') AS 'date';
 
+-- -----------------------------------------------------------------------------------------
+-- 6. List each customer's rentals with a row number indicating the order of their rentals.
+--    Sort by customer ID and rental date in ascending order.
+-- -----------------------------------------------------------------------------------------
+SELECT  r.customer_id AS 'Customer ID'
+,       r.rental_id AS 'Rental ID'
+,       r.rental_date AS 'Rental Date'
+,       ROW_NUMBER() OVER (ORDER BY r.customer_id, r.rental_date) AS row_num
+FROM    rental r;
+
 
 -- ----------------------------------
 -- PRACTICE
