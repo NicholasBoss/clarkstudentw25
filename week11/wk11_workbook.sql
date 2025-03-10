@@ -204,8 +204,6 @@ ORDER by title;
 --    |        1000 |
 --    +-------------+
 --    1 row in set (0.06 sec)
---    The column will look like the following:
---    | Total Films |
 -- ------------------------------------------------------------------------------------------
 
 
@@ -218,8 +216,6 @@ ORDER by title;
 --    |                  4.9850 |
 --    +-------------------------+
 --    1 row in set (0.00 sec)
---    The column will look like the following:
---    | Average Rental Duration |
 -- ------------------------------------------------------------------------------------------
 
 
@@ -236,8 +232,6 @@ ORDER by title;
 --    | R      |         195 |
 --    +--------+-------------+
 --    5 rows in set (0.00 sec)
---    Columns will look like the following:
---    | Rating | Total Films |
 -- ------------------------------------------------------------------------------------------
 
 
@@ -266,8 +260,6 @@ ORDER by title;
 --    | Music         |          51 |
 --    +---------------+-------------+
 --    16 rows in set (0.02 sec)
---    Column names will look like the following:
---    | Category Name | Total Films |
 -- ------------------------------------------------------------------------------------------
 
 
@@ -284,7 +276,5 @@ ORDER by title;
 --    |        1 | $33,679.79    |
 --    +----------+---------------+
 --    2 rows in set (0.19 sec)
---    Columns will look like the following:
---    | Store ID | Total Revenue |
 -- ------------------------------------------------------------------------------------------
 
